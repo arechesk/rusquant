@@ -1,13 +1,14 @@
 Package: rusquant
 Type: Package
-Title: Quant free datasources
-Version: 0.4.2
-Date: 2020-02-13
+Title: Your data explorer to quantitative trading world
+Version: 0.3.8
+Date: 2017-10-20
 Author: Sergey Edunov[cre, aut], Vyacheslav Arbuzov[cre, aut], Aleksey Kutergin[ctb]
-Depends: quantmod,lubridate,data.table,jsonlite,httr,rvest,RCurl,XML
+Depends: quantmod,lubridate,data.table,curl
 Suggests:
 Maintainer: Vyacheslav Arbuzov <arbuzov1989@gmail.com>
-Description: Rusquant is package for interaction with trading API of different exchanges and trading terminals. It allows to download financial free datasources
+Description: Rusquant is data downloader from different data sources starting from Close price to order book, tradelog and orderlog. 
+Current available data sources: Russian financial market:finam.ru, mfd.ru, hs.alorbroker.ru; Cryptomarkets:poloniex.com, coinmarketcap.com
 LazyLoad: yes
 License: GPL-3
 URL: http://www.rusquant.ru
